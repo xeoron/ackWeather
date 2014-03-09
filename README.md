@@ -2,9 +2,11 @@ ackWeather
 =====
 Purpose: 
 
-	A dedicated web-page that grabs and displays weather info and maps for Nantucket with links to Nantucket Sound Bouy Data, Wind Map, Pollen Levels, and WeatherSpark's tempature chart.
+	A dedicated web-page that grabs and displays weather info and maps for Nantucket 
+	with links to Nantucket Sound Bouy Data, Wind Map, Pollen Levels, 
+	and WeatherSpark's tempature chart.
 
-<img src="https://github.com/xeoron/SSH-Check/blob/master/images/sample.png?raw=true"/>
+<img src="https://github.com/xeoron/ackWeather/blob/master/images/sample.png?raw=true"/>
 
 Extra features:
 	Data is refreshed every 10 minutes
