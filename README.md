@@ -13,7 +13,7 @@ Extra features:
 	-Data is refreshed every 10 minutes
 	-Mouse-over the Wind-Chill Map and it will switch to Surface Heat Map
 	-Mouse-over the other maps and it will display source info.
-	-Current weather conditions use the Yahoo's YQL API
+	-Current weather conditions use Yahoo's YQL API
 	
 Requirements
 =====
