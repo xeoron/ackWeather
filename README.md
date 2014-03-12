@@ -19,6 +19,6 @@ Extra features:
 	
 Requirements
 =====
-Works on all modern web browsers that active internet connections
+Works on all modern web browsers that have active internet connections
 
 	
