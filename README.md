@@ -3,7 +3,7 @@ ackWeather
 Purpose: 
 
 	A dedicated web-page that grabs and displays weather info and maps for Nantucket 
-	with links to Nantucket Sound Bouy Data, Wind Map, Pollen Levels, Forcast.io 
+	with links to Nantucket Sound Bouy Data, Wind Map, Pollen Levels, Forcast.io, 
 	Wunderground Nantucket, and WeatherSpark's tempature chart.
 
 <img src="https://github.com/xeoron/ackWeather/blob/master/images/sample.png?raw=true"/>
