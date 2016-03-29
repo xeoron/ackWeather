@@ -5,27 +5,28 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta http-equiv="REFRESH" content="600"> <!-- refresh page every 10min-->
 	<style type="text/css"> 
-		.centeredImage { text-align:center; margin-top:0px; margin-bottom:0px; padding:0px; 
+		.centeredImage { 
+		    text-align: center; margin-top:0px; margin-bottom:0px; padding:0px; 
                         -webkit-border-radius: 15px;
                         border-radius: 15px;
  			background: -moz-linear-gradient(top, rgba(0,0,40,1) 0%, rgba(0,0,0,1) 100%); /* FF3.6+ */
                         background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(10,10,40,1)), color-stop(100%,rgba(0,0,0,1)));       
                         background: -webkit-linear-gradient(top, rgba(0,0,40,1) 0%,rgba(0,0,0,1) 100%);
-			 background: -o-linear-gradient(top, rgba(0,0,40,1) 0%,rgba(0,0,0,1) 100%); /* Opera11.10+ */
+			            background: -o-linear-gradient(top, rgba(0,0,40,1) 0%,rgba(0,0,0,1) 100%); /* Opera11.10+ */
                         background: -ms-linear-gradient(top, rgba(0,0,40,1) 0%,rgba(0,0,0,1) 100%); /* IE10+ */
-			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f0f0', endColorstr='#e0e0e0',GradientType=0 ); /* IE6-9 */
+			            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f0f0', endColorstr='#e0e0e0',GradientType=0 ); /* IE6-9 */
                         background: linear-gradient(top, rgba(0,0,40,1) 0%,rgba(0,0,0,1) 100%); /* W3C */		
 		} 
 		body {background: black;}
 		A:visited, A:link, A:active  { text-decoration: none; color: green; text-shadow: 2px 2px 8px #ffffff}
 
 		#wxWrap {
-			width: 375px;
+			width: 630px;
 			background: #EEE; /* Old browsers */
 			background: -moz-linear-gradient(top, rgba(56,141,219,1) 0%, rgba(224,224,224,1) 100%); /* FF3.6+ */
 			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(56,141,14,1)), color-stop(100%,rgba(224,224,224,1))); /* Chrome,Safari4+ */
-			background: -webkit-linear-gradient(top, rgba(56,141,219,1) 0%,rgba(224,224,224,1) 100%); /* Chrome10+,Safari5.1+ */
-			background: -o-linear-gradient(top, rgba(56,141,219,1) 0%,rgba(224,224,224,1) 100%); /* Opera11.10+ */
+			background: -webkit-linear-gradient(top, rgba(57,63,85,1) 0%,rgba(224,224,224,1) 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top, rgba(23,75,161,1) 0%,rgba(224,224,224,1) 100%); /* Opera11.10+ */
 			background: -ms-linear-gradient(top, rgba(56,141,219,1) 0%,rgba(224,224,224,1) 100%); /* IE10+ */
 			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f0f0', endColorstr='#e0e0e0',GradientType=0 ); /* IE6-9 */
 			background: linear-gradient(top, rgba(56,141,219,1) 0%,rgba(224,224,224,1) 100%); /* W3C */
@@ -34,36 +35,7 @@
 			-moz-border-radius: 4px;
 			border-radius: 4px;
 		}
-		#wxIntro {
-			display: inline-block;
-			font: 14px/20px Arial,Verdana,sans-serif;
-			color: black;
-			vertical-align: top;
-			padding-top: 9px;
-		}
-		#wxIcon {
-			display: inline-block;
-			width: 61px;
-			height: 34px;
-			margin: 2px 0 -1px 1px;
-			overflow: hidden;
-			background: url('http://l.yimg.com/a/lib/ywc/img/wicons.png') no-repeat 61px 0;
-		}
-		#wxIcon2 {
-			display: inline-block;
-			width: 34px;
-			height: 34px;
-			margin: 1px 6px 0 8px;
-			overflow: hidden;
-		}
-		#wxTemp {
-			display: inline-block;
-			font: 20px/28px Arial,Verdana,sans-serif;
-			color: #333;
-			vertical-align: top;
-			padding-top: 5px;
-			margin-left: 0;
-		}
+
 	</style>
 	<script> 
 		// This is the implementation of SimpleSwap
@@ -111,58 +83,25 @@
 	 <img width="512" height="331" src="http://images.intellicast.com/WxImages/RadarLoop/usa_None_anim.gif" title="North America-- Intellicast, but click and go to Forcast.io for more detail.">
 	 <img src="http://sirocco.accuweather.com/nx_mosaic_400x300c/SIR/inmaSIRCT_.gif" title="NE Region-- Accuweather, but click and go to Forcast.io for more detail.">
 	</a><br>
-	
-	<!--Insert current weather temp from Yahoo's YQL-->
-	<span id="wxWrap" style="display: inline-block;">
-		<span id="wxIntro">
-				Currently in Nantucket: 
-		</span>
-		<span id="wxIcon"></span>
-		<span id="wxTemp"></span>
+	<br>
+    <span style="width: 650px;">
+		<iframe style="display: inline-block;" src="http://cdnres.willyweather.com/widget/loadView.html?id=45254" width="650" height="92" frameborder="0" scrolling="no"></iframe>
+		<a style="z-index: 1;width: 20px;margin: -92px 0 0 0;position: relative;height: 92px;text-indent: -9999em;float: right" href="http://www.willyweather.com/ma/nantucket-county/nantucket.html">Nantucket Weather</a>
+	</span>
+    <br>
+	<span style="display: inline-block; margin: 10px 0 15px 0">
 		<a title="Bouy Data from Nantucket Sound" href="http://www.ndbc.noaa.gov/station_page.php?station=44020">.</a>
-		 &nbsp; <a href="http://www.wunderground.com/DisplayPollen.asp?Zipcode=02554" title="Pollen Levels">..</a> 
+		 &nbsp; <a title="Pollen Levels" href="http://www.wunderground.com/DisplayPollen.asp?Zipcode=02554">..</a> 
 		 &nbsp; <a title="Wind Map" href="http://hint.fm/wind/">...</a> 
 		 &nbsp; <a title="Wunderground Nantucket" href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=ack">....</a> 
 		 &nbsp; <a title="weather spark - track weather in detail over time" href="http://weatherspark.com/#!dashboard;q=Nantucket,+Massachusetts,+United+States">.....</a>
 	</span><br>
-	<script type="text/javascript">
-	// javascript will go here
-	$(function(){
-		// Specify the ZIP/location code and units (f or c)
-		var loc = '02554'; // 10001 or e.g. SPXX0050
-		var u = 'f';
-
-		var query = "SELECT item.condition FROM weather.forecast WHERE location='" + loc + "' AND u='" + u + "'";
-		var cacheBuster = Math.floor((new Date().getTime()) / 1200 / 1000);
-		var url = 'http://query.yahooapis.com/v1/public/yql?q=' + encodeURIComponent(query) + '&format=json&_nocache=' + cacheBuster;
-
-		window['wxCallback'] = function(data) {
-				var info = data.query.results.channel.item.condition;
-				$('#wxIcon').css({
-						backgroundPosition: '-' + (61 * info.code) + 'px 0'
-				}).attr({
-						title: info.text
-				});
-				$('#wxIcon2').append('<img src="http://l.yimg.com/a/i/us/we/52/' + info.code + '.gif" width="34" height="34" title="' + info.text + '" />');
-				$('#wxTemp').html(info.temp + '&deg;' + (u.toUpperCase()));
-		};
-
-		$.ajax({
-				url: url,
-				dataType: 'jsonp',
-				cache: true,
-				jsonpCallback: 'wxCallback'
-		});
-		
-	});
-	</script><!--end of YQL-->
-
-	<img src="http://vortex.plymouth.edu/uschill.gif" oversrc="http://vortex.plymouth.edu/usheat.gif" title="heat / wind-chill map">
-	<!-- images to use
+	
+		<img src="http://vortex.plymouth.edu/uschill.gif" oversrc="http://vortex.plymouth.edu/usheat.gif" title="heat / wind-chill map">
+		<!-- images to use
 			 <img src="http://vortex.plymouth.edu/usheat.gif" title="heat map">	
 			 <img src="http://vortex.plymouth.edu/uschill.gif" title="wind-chill map"> 
 	-->
-<br><span>Beware of the Anarchy of Stillness</span>
-</div>
+ </div>
  </body>
 </html>
