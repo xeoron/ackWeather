@@ -14,7 +14,7 @@ Extra features:
 	-Dolpar Radar is animated, with a link to Forcast.io for more detail
 	-Mouse-over the Wind-Chill Map and it will switch to Surface Heat Map
 	-Mouse-over the other maps and it will display source info
-	-Current weather conditions use Yahoo's YQL API
+	-Current weather conditions with four day forcast
 	-Makes use of CSS3 color blending and round corners
 	
 Requirements
