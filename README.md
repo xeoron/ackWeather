@@ -15,7 +15,7 @@ Extra features:
 	-Mouse-over the Wind-Chill Map and it will switch to Surface Heat Map
 	-Mouse-over the other maps and it will display source info
 	-Current weather conditions with four day forcast with more detailed if you click on the date
-	-Makes use of CSS3 color blending and round corners
+	-Makes use of CSS3 color blending and round corners & bright text
 	
 Requirements
 =====
