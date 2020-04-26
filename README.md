@@ -3,19 +3,20 @@ ackWeather
 Purpose: 
 
 	A dedicated web-page that grabs and displays weather info and maps for Nantucket 
-	with links to Nantucket Sound Bouy Data, Wind Map, Pollen Levels, Forcast.io, 
-	Wunderground Nantucket, and WeatherSpark's tempature chart.
+	with Interactive Maps and widgets and links to Nantucket Sound Bouy Data, Wind Map,
+    Pollen Levels, Forcast.io, Drought, Wunderground Nantucket, and WeatherSpark's tempature chart and more.
 
 <img src="https://github.com/xeoron/ackWeather/blob/master/images/sample.png?raw=true"/>
 
 Extra features:
 
 	-Data is refreshed every 10 minutes
-	-Dolpar Radar is animated
+	-Dolpar / Lightning Radar
+    -Interactive Maps that show everything and are adjustable for location
+    -Interactive Forcast: Mouse-over or click to display more details
 	-Mouse-over the Wind-Chill Map and it will switch to Surface Heat Map
-	-Mouse-over the other maps and it will display source info
 	-Current weather conditions with four day forcast with more detailed if you click on the date
-	-Makes use of CSS3 color blending and round corners & bright text
+	
 	
 Requirements
 =====
