@@ -3,7 +3,7 @@
  <head>
 	<title>Weather Maps</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<meta http-equiv="REFRESH" content="600"> <!-- refresh page every 10min-->
+	<meta http-equiv="refresh" content="600"> <!-- refresh page every 10min-->
 	<style type="text/css"> 
 		.centerStuff { 
 		    text-align: center; margin-top:0px; margin-bottom:0px; padding:0px; 
@@ -53,6 +53,7 @@
     			document.getElementById("img-1").src = "https://www.mesonet.org/data/public/noaa/metar/maps/realtime/latest.tapp.png?cache_bust=1577754836685";
   			}
 	  }//end swapImages()
+
 	</script> 
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
 
@@ -65,7 +66,7 @@
         <iframe width="512" height="331" src="https://embed.windy.com/embed2.html?lat=41.217&lon=-71.924&zoom=7&level=surface&overlay=radar&menu=&message=true&marker=&calendar=&pressure=&type=map&location=coordinates&detail=&detailLat=40.833&detailLon=-70.112&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1" frameborder="0"></iframe>
 	<br>
 	<br>
-	<div id="clock" style=" text-align: center;"><!-- insert clock code --></div>
+	<div id="clock" style=" text-align: center;" title="Local Time"><!-- insert clock code --></div>
 
     <span style="width: 650px;">
 		<iframe style="display: inline-block;" src="http://cdnres.willyweather.com/widget/loadView.html?id=45254" width="650" height="92" frameborder="0" scrolling="no"></iframe>
@@ -87,7 +88,7 @@
         </span><br>
 	
 		<div> <!--Maps for Wind Chill-Heat <-> Relative Humidty -->
-				<div id="click-me" onclick="swapImages()" style="color: rgb(255,224,19); text-shadow: 2px 2px 8px #ffffff">Click: Switch Maps</div>
+				<div id="click-me" onclick="swapImages()" title="Click to toggle between maps!" style="color: rgb(255,224,19); text-shadow: 2px 2px 8px #ffffff">Click: Switch Maps</div>
 				<img id="img-1" src="https://www.mesonet.org/data/public/noaa/metar/maps/realtime/latest.tapp.png?cache_bust=1577754836685" title="Maps: Wind Chill/Heat <-> Relative Humidty">
 				
 		</div>
