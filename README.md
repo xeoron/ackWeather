@@ -4,8 +4,8 @@ Purpose:
 
 	A dedicated web-page that grabs and displays weather info and maps for Nantucket 
 	with Interactive Maps and widgets and links to Nantucket Sound Bouy Data, Wind Map,
-    Pollen Levels, Forcast.io, Drought, Wunderground Nantucket, 
-	and WeatherSpark's tempature chart and more.
+    Pollen Levels, Forcast.io, Drought, Wunderground Nantucket, WeatherSpark's tempature 
+	chart, Marine Traffic Map and more.
 
 <img src="https://github.com/xeoron/ackWeather/blob/master/images/sample.png?raw=true"/>
 
