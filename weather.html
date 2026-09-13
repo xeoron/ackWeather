@@ -24,19 +24,10 @@
     <script language="JavaScript" type="text/JavaScript">
 	var q=0;
 	function swapImage(){
-		if(q==0){ document.getElementById("wordsearch").setAttribute('src','https://data.mesonet.org/data/public/noaa/metar/maps/realtime/latest.tapp.png?cache_bust=1789318959689'); q++; }
-		else{ document.getElementById("wordsearch").setAttribute('src','https://data.mesonet.org/data/public/noaa/metar/maps/realtime/latest.relh.png?cache_bust=1789318947132'); q--; }
+		if(q==0){ document.getElementById("wordsearch").setAttribute('src','https://data.mesonet.org/data/public/noaa/metar/maps/realtime/latest.relh.png?cache_bust=1789318947132'); q++; }
+		else{ document.getElementById("wordsearch").setAttribute('src','https://data.mesonet.org/data/public/noaa/metar/maps/realtime/latest.tapp.png?cache_bust=1789318959689'); q--; }
 	}
 	</script>
-
-
-
-<!-- 
-https://data.mesonet.org/data/public/noaa/metar/maps/realtime/latest.tapp.png?cache_bust=1789318959689
-https://data.mesonet.org/data/public/noaa/metar/maps/realtime/latest.relh.png?cache_bust=1789318947132
--->
-
-
 
  </head>
  <body>
@@ -70,7 +61,7 @@ https://data.mesonet.org/data/public/noaa/metar/maps/realtime/latest.relh.png?ca
     </span><br>
 	
 		<div style="color: rgb(255,224,19); text-shadow: 2px 2px 8px #ffffff">Click Maps to Switch<br>
-			<img id="wordsearch" src="https://data.mesonet.org/data/public/noaa/metar/maps/realtime/latest.relh.png?cache_bust=1789318947132" onclick="swapImage()" title="Maps: Wind Chill/Heat + Relative Humidty"/>	
+			<img id="wordsearch" src="https://data.mesonet.org/data/public/noaa/metar/maps/realtime/latest.tapp.png?cache_bust=1789318959689" onclick="swapImage()" title="Maps: Wind Chill/Heat + Relative Humidty"/>	
 		</div>
 		<a target="_windchill" href="https://www.weather.gov/safety/cold-wind-chill-chart"><img src="https://www.weather.gov/images/safety/windchill21.gif" title="NOAA's Wind-Chill Guide"></a>
   </div>
