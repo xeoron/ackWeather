@@ -13,6 +13,7 @@ Extra features:
 
 	-Data is refreshed every 10 minutes
 	-Dolpar / Lightning Radar
+	-Flight and Marine GPS Tracking
     -Current weather conditions with four day forcast with more detailed if you click on the date
 	-Interactive Maps that show everything and are adjustable for location
     -Interactive Forcast: Click to toggle Heat/Wind Chill Map <-> Relative Humidty Map

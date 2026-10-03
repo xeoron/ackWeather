@@ -19,16 +19,14 @@
 		} 
 		body { background: black; color: rgb(255,224,19); text-shadow: 2px 2px 8px #79498b; font-weight: bold; font-family: system-ui }
 		A:visited, A:link, A:active  { text-decoration: none; color: rgb(255,224,19); text-shadow: 2px 2px 8px #ffffff }
-
 	</style>
     <script language="JavaScript" type="text/JavaScript">
-	var q=0;
-	function swapImage(){
+	  var q=0;
+	  function swapImage(){
 		if(q==0){ document.getElementById("wordsearch").setAttribute('src','https://data.mesonet.org/data/public/noaa/metar/maps/realtime/latest.relh.png?cache_bust=1789318947132'); q++; }
 		else{ document.getElementById("wordsearch").setAttribute('src','https://data.mesonet.org/data/public/noaa/metar/maps/realtime/latest.tapp.png?cache_bust=1789318959689'); q--; }
-	}
+	  }
 	</script>
-
  </head>
  <body>
   <div class="centerStuff";>
@@ -57,11 +55,12 @@
 		 &nbsp; <a title="US Gov Drought Map" target="_blank" href="https://droughtmonitor.unl.edu/">D</a>/<a title="Wind-Chill" target="_blank" href="http://hp2.wright-weather.com/icons/us_chill.gif">W</a>/<a title="Heat Map" target="_blank" href="https://vortex.plymouth.edu/mapwall/forecast/model_loop.html?model=HRRR&prod_name=2mt-na">H</a>/<a title="Wind Map" target="_blank" href="https://vortex.plymouth.edu/mapwall/forecast/model_loop.html?model=NAM&prod_name=850-na">W</a>/<a title="Marine Port Traffic Map" target="_blank" href="https://www.flightradar24.com/41.50,-70.45/10">P</a>
 		 <br>
 		 <a title="NHS Weather Center Station" target="_weathercenter" href="https://owc.enterprise.earthnetworks.com/OnlineWeatherCenter.aspx?aid=8476">Weather Center</a> / 
-		 <a title="Flight Radar" target="_radar" href="https://www.flightradar24.com/RPA4431/4169b8d7">Flights</a>
+		 <a title="Flight Radar" target="_radarF" href="https://www.flightradar24.com/RPA4431/4169b8d7">Flights</a> /
+		 <a title="Marine GPS Radar Tracker" target="_radarM" href="https://www.marinetraffic.com/en/ais/home/centerx:-70.1/centery:41.4/zoom:10">Marine</a>
     </span><br>
 	
 		<div style="color: rgb(255,224,19); text-shadow: 2px 2px 8px #ffffff">Click the Map to Switch<br>
-			<img id="wordsearch" src="https://data.mesonet.org/data/public/noaa/metar/maps/realtime/latest.tapp.png?cache_bust=1789318959689" onclick="swapImage()" title="Maps: Wind Chill/Heat + Relative Humidty"/>	
+			<img id="wordsearch" src="https://data.mesonet.org/data/public/noaa/metar/maps/realtime/latest.tapp.png?cache_bust=1789318959689" onclick="swapImage()" title="Maps: Wind Chill/Heat + Relative Humidty"/>
 		</div>
 		<a target="_windchill" href="https://www.weather.gov/safety/cold-wind-chill-chart"><img src="https://www.weather.gov/images/safety/windchill21.gif" title="NOAA's Wind-Chill Guide"></a>
   </div>
